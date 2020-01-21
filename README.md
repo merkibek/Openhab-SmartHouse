@@ -6,13 +6,13 @@ Layout of house was 3d printed and installed in laser-cutted wood plate. 3d mode
 ## Hardware parts
 This is the list of parts i used in this project:
 ```
-* Raspberry Pi 3b+
-* Wemos d1 mini
-* Relay module
-* Power contoller
-* 12V Fan
-* LED - 3pcs
-* Wires
+Raspberry Pi 3b+
+Wemos d1 mini
+Relay module
+Power contoller
+12V Fan
+LED - 3pcs
+Wires
 ```
 ## Code 
-openHab server is runned on Raspberry Pi and it connects with Wemos ESP8266 module by MQTT protocol. Wemos board handles and performs all commands.
+OpenHab server is runned on Raspberry Pi and it connects with Wemos ESP8266 module by MQTT protocol. Wemos board handles and performs all commands.
