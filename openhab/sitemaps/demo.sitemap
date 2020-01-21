@@ -1,0 +1,14 @@
+sitemap demo label="My home automation" {
+    Frame label="Гостиная"{
+        Switch 	item=mqtt_topic_32b4c9dc_3 	label="Свет" 			icon="lightbulb"
+		Text 	item=mqtt_topic_4cd66a11_8 	label="Температура [%s °C]" 	icon="temperature"
+		Text 	item=mqtt_topic_4cd66a11_9 	label="Влажность [%s %%]"		icon="humidity"
+		Switch	item=mqtt_topic_4cd66a11_4 	label="Вентиляция" 		icon="fan"
+	}
+    Frame label="Кухня" {
+        Switch 	item=mqtt_topic_52baabfa_1 	label="Свет"			icon="kitchen"
+	}
+    Frame label="Прихожая" {
+        Switch 	item=mqtt_topic_a68f56d8_2 	label="Свет"			icon="corridor"
+	}
+}

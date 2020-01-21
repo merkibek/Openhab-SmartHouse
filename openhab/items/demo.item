@@ -1,0 +1,5 @@
+Switch 	led1 	"led1" 			<light> 	{channel="mqtt:topic:52baabfa:1"}
+Switch 	led2 	"led2" 			<light> 	{channel="mqtt:topic:a68f56d8:2"}
+Switch 	led3 	"led3" 			<light> 	{channel="mqtt:topic:32b4c9dc:3"}
+Switch 	fan 	"fan" 			<fan> 		{channel="mqtt:topic:4cd66a11:4"}
+String temp     "temp"           <temp>		{channel = "mqtt:topic:4cd66a11:8"}

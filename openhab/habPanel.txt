@@ -1,0 +1,319 @@
+{
+    "Мой дом": {
+        "updatedTime": "2019-05-29T17:00:49.537Z",
+        "dashboards": [
+            {
+                "id": "Мой дом",
+                "name": "Мой дом",
+                "widgets": [
+                    {
+                        "name": "Свет",
+                        "sizeX": 3,
+                        "sizeY": 2,
+                        "item": "mqtt_topic_52baabfa_1",
+                        "type": "switch",
+                        "row": 1,
+                        "col": 0,
+                        "iconset": "freepik-household",
+                        "icon_size": "80",
+                        "hidelabel": true,
+                        "icon": "light-bulb"
+                    },
+                    {
+                        "name": "Кухня",
+                        "sizeX": 3,
+                        "sizeY": 1,
+                        "item": null,
+                        "type": "label",
+                        "row": 0,
+                        "col": 0,
+                        "foreground": "#66FF99",
+                        "font_size": "20",
+                        "background": "#333333"
+                    },
+                    {
+                        "name": "Прихожая",
+                        "sizeX": 3,
+                        "sizeY": 1,
+                        "item": null,
+                        "type": "label",
+                        "row": 0,
+                        "col": 3,
+                        "background": "#333333",
+                        "foreground": "#66FF99",
+                        "font_size": "20"
+                    },
+                    {
+                        "name": "Гостиная",
+                        "sizeX": 6,
+                        "sizeY": 1,
+                        "item": null,
+                        "type": "label",
+                        "row": 3,
+                        "col": 0,
+                        "background": "#333333",
+                        "foreground": "#66FFFF",
+                        "font_size": "18"
+                    },
+                    {
+                        "name": "Свет",
+                        "sizeX": 3,
+                        "sizeY": 2,
+                        "item": "mqtt_topic_a68f56d8_2",
+                        "type": "switch",
+                        "row": 1,
+                        "col": 3,
+                        "hidelabel": true,
+                        "iconset": "freepik-household",
+                        "icon": "light-bulb",
+                        "icon_size": "80"
+                    },
+                    {
+                        "name": "Свет",
+                        "sizeX": 2,
+                        "sizeY": 2,
+                        "item": "mqtt_topic_32b4c9dc_3",
+                        "type": "switch",
+                        "row": 4,
+                        "col": 0,
+                        "hidelabel": true,
+                        "iconset": "freepik-household",
+                        "icon": "light-bulb-1",
+                        "icon_size": "80"
+                    },
+                    {
+                        "name": "Температура",
+                        "sizeX": 4,
+                        "sizeY": 1,
+                        "item": "mqtt_topic_4cd66a11_8",
+                        "type": "dummy",
+                        "row": 5,
+                        "col": 2,
+                        "font_size": "25",
+                        "nolinebreak": true,
+                        "unit": "°C",
+                        "useserverformat": false,
+                        "backdrop_iconset": "smarthome-set",
+                        "backdrop_icon": "temperature",
+                        "icon_size": "30",
+                        "icon_nolinebreak": false
+                    },
+                    {
+                        "name": "Влажность",
+                        "sizeX": 4,
+                        "sizeY": 1,
+                        "item": "mqtt_topic_4cd66a11_9",
+                        "type": "dummy",
+                        "row": 4,
+                        "col": 2,
+                        "font_size": "25",
+                        "nolinebreak": true,
+                        "unit": "%",
+                        "backdrop_iconset": "smarthome-set",
+                        "backdrop_icon": "drop",
+                        "icon_size": "30",
+                        "icon_nolinebreak": false
+                    },
+                    {
+                        "name": "Вентиляция",
+                        "sizeX": 3,
+                        "sizeY": 1,
+                        "item": null,
+                        "type": "label",
+                        "row": 3,
+                        "col": 6,
+                        "background": "#333333",
+                        "foreground": "#6699FF",
+                        "font_size": "20"
+                    },
+                    {
+                        "name": "",
+                        "sizeX": 3,
+                        "sizeY": 2,
+                        "item": "mqtt_topic_4cd66a11_4",
+                        "type": "switch",
+                        "row": 4,
+                        "col": 6,
+                        "backdrop_iconset": "freepik-household",
+                        "iconset": "smarthome-set",
+                        "icon": "ventilation",
+                        "icon_size": "80"
+                    },
+                    {
+                        "name": "Часы",
+                        "sizeX": 3,
+                        "sizeY": 2,
+                        "item": null,
+                        "type": "clock",
+                        "row": 1,
+                        "col": 6,
+                        "mode": "Digital\n\t\t    ",
+                        "analog_theme": "dark",
+                        "font_size": "30"
+                    },
+                    {
+                        "name": "Время",
+                        "sizeX": 3,
+                        "sizeY": 1,
+                        "item": null,
+                        "type": "label",
+                        "row": 0,
+                        "col": 6,
+                        "background": "#333333",
+                        "foreground": "#FFFF99",
+                        "font_size": "20"
+                    }
+                ],
+                "row": 0,
+                "col": 0
+            }
+        ],
+        "menucolumns": 4,
+        "settings": {
+            "theme": "paleblue"
+        },
+        "customwidgets": {
+            "googlemaps": {
+                "template": "<iframe ng-src=\"{{config.serverpath+'?gm_zoomlevel='+config.gm_zoomlevel+'&gm_latitude='+config.gm_latitude+'&gm_longitude='+config.gm_longitude+'&gm_travel='+config.gm_travel+'&gm_origin='+config.gm_origin+'&gm_destination='+config.gm_destination+'&gm_apikey='+config.gm_apikey+'&gm_distance_label=' + config.gm_distance_label+'&gm_average_label='+config.gm_average_label+'&gm_currently_label='+config.gm_currently_label}}\"style =\"height:{{config.height}}px; width:100%; display:block; border:0px;\"></iframe>",
+                "settings": [
+                    {
+                        "type": "number",
+                        "id": "height",
+                        "label": "Height",
+                        "default": "600",
+                        "description": "Map frame height"
+                    },
+                    {
+                        "type": "string",
+                        "id": "serverpath",
+                        "label": "Server Path",
+                        "default": "/static/google-maps/map.html",
+                        "description": "Change this value to use the correct path"
+                    },
+                    {
+                        "type": "number",
+                        "id": "gm_zoomlevel",
+                        "label": "Google zoomlevel",
+                        "default": "12",
+                        "description": "Enter the required zoomlevel for googlemaps"
+                    },
+                    {
+                        "type": "string",
+                        "id": "gm_latitude",
+                        "label": "Latitude",
+                        "default": "",
+                        "description": "Enter the latitude for your GPS coordinates"
+                    },
+                    {
+                        "type": "string",
+                        "default": "",
+                        "label": "Longitude",
+                        "id": "gm_longitude",
+                        "description": "Enter the longitude for your GPS coordinates"
+                    },
+                    {
+                        "type": "checkbox",
+                        "id": "gm_travel",
+                        "description": "Show travel time between two locations?",
+                        "label": "Travel",
+                        "default": true
+                    },
+                    {
+                        "type": "string",
+                        "id": "gm_origin",
+                        "label": "Origin",
+                        "description": "Start location for travel time calculation",
+                        "default": "Amsterdam"
+                    },
+                    {
+                        "type": "string",
+                        "id": "gm_destination",
+                        "label": "Destination",
+                        "default": "Rotterdam",
+                        "description": "End location for travel calculation"
+                    },
+                    {
+                        "type": "string",
+                        "id": "gm_distance_label",
+                        "label": "Distance",
+                        "default": "Distance",
+                        "description": "Distance label for the language of your choice"
+                    },
+                    {
+                        "type": "string",
+                        "id": "gm_average_label",
+                        "label": "Average",
+                        "default": "Average",
+                        "description": "Average label for the language of your choice"
+                    },
+                    {
+                        "type": "string",
+                        "id": "gm_currently_label",
+                        "label": "Currently",
+                        "default": "Currently",
+                        "description": "Currently label for the language of your choice"
+                    },
+                    {
+                        "type": "string",
+                        "id": "gm_apikey",
+                        "label": "Google maps API key",
+                        "default": "<Enter your API key here !>",
+                        "description": "Get your API key at https://developers.google.com/maps/documentation/javascript/get-api-key"
+                    }
+                ],
+                "name": "Google Maps with traffic",
+                "author": "Bastiaan van Haastrecht",
+                "description": "Google Maps with auto refreshing traffic layer. NEW, added travel time calculation. https://github.com/BasvanH/",
+                "source_url": "https://raw.githubusercontent.com/BasvanH/habpanel-widget-googlemaps/master/googlemaps.widget.json",
+                "readme_url": "https://github.com/BasvanH/habpanel-widget-googlemaps"
+            },
+            "Local Weather - OpenWeatherMap": {
+                "template": "<!-- For more information goto: https://github.com/BasvanH/habpanel-widget-openweathermap -->\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/static/openweathermap/weather-icons-master/css/weather-icons.css\">\n\n<style>\n@media (min-width: 992px) {\n    .col-md-border:not(:last-child) {\n\t\t\tborder-right: 1px solid #d7d7d7;\n    }\n    .col-md-border + .col-md-border {\n\t\t\tborder-left: 1px solid #d7d7d7;\n\t\t\tmargin-left: -1px;\n    }\n  \t.owm-to-upper:first-letter {\n    \ttext-transform: uppercase;\n\t\t}\n  \t.owm-condition {\n  \t\theight: 2em;\n \t\t}\n  \t.owm-row-current {\n  \t\tmargin: 1em 0em 2em;\n \t\t}\n   \t.owm-row-forecast {\n  \t\tmargin-bottom: 1em;\n \t\t}\n}\n</style>\n<div oc-lazy-load=\"['/static/openweathermap/owm.controller.js']\">\n\t<div ng-controller=\"ngOwmCtrl\">\n    <div class=\"row owm-row-current\">\n      <div class=\"col-xs-9\">\n        <i class=\"wi wi-owm-{{ itemValue('Weather_OWM_ConditionId') }} pull-right\" ng-style=\"{ 'color' : (config.icon_color_current == NULL ? primary-color : config.icon_color_current), 'font-size' : (config.icon_size_current == NULL ? '10em' : config.icon_size_current + 'em') }\"></i>\n        <h2 class=\"text-left owm-to-upper\">{{ itemValue('Weather_OWM_Condition') }}</h2>\n      </div>\n      <div class=\"col-xs-3 text-right\">\n        <h2>{{ '%.1f' | sprintf:itemValue('Weather_OWM_Temperature').split(' ')[0] }} {{ itemValue('Weather_OWM_Temperature').split(' ')[1] }}</h2>\n        <h5><img style=\"height:16px;\" src=\"/static/openweathermap/images/humidity.png\"/> {{itemValue('Weather_OWM_Humidity') }}</h5>\n        <h5><img style=\"height:16px;\" src=\"/static/openweathermap/images/wind.png\"/> {{ '%.1f' | sprintf:itemValue('Weather_OWM_Wind_Speed').split(' ')[0] }} {{ itemValue('Weather_OWM_Wind_Speed').split(' ')[1] }}</h5>\n        <h5>{{ itemValue('Weather_OWM_ObservationTime') | date: 'HH:mm' }}</h5>\n      </div>\n    </div>\n    <div class=\"row owm-row-forecast\">\n      <div class=\"col-xs-3 col-md-border\">\n        <h4 class=\"owm-to-upper\">{{ date_time0 | date:(config.config.day_format == NULL ? 'EEEE' : config.day_format) }}</h4>\n        <i class=\"wi wi-owm-{{ condition_id0 }}\" ng-style=\"{ 'color' : (config.icon_color_forecast == NULL) ? primary-color : config.icon_color_forecast, 'font-size' : (config.icon_size_forecast == NULL) ? '3em' : config.icon_size_forecast + 'em' }\"></i>\n        <h5 class=\"owm-condition owm-to-upper\">{{ condition0 }}</h5>\n        <h4><b>{{ temp0 == NULL ? '' : '%.1f' | sprintf:temp0.split(' ')[0]}} {{temp0.split(' ')[1] }}</b></h4>\n      </div>\n      <div class=\"col-xs-3 col-md-border\">\n        <h4 class=\"owm-to-upper\">{{ date_time1 | date:(config.config.day_format == NULL ? 'EEEE' : config.day_format) }}</h4>\n        <i class=\"wi wi-owm-{{ condition_id1 }}\" ng-style=\"{ 'color' : (config.icon_color_forecast == NULL) ? primary-color : config.icon_color_forecast, 'font-size' : (config.icon_size_forecast == NULL) ? '3em' : config.icon_size_forecast + 'em' }\"></i>\n        <h5 class=\"owm-condition owm-to-upper\">{{ condition1 }}</h5>\n        <h4><b>{{ temp1 == NULL ? '' : '%.1f' | sprintf:temp1.split(' ')[0]}} {{temp1.split(' ')[1] }}</b></h4>\n      </div>\n      <div class=\"col-xs-3 col-md-border\">\n        <h4 class=\"owm-to-upper\">{{ date_time2 | date:(config.config.day_format == NULL ? 'EEEE' : config.day_format) }}</h4>\n        <i class=\"wi wi-owm-{{ condition_id2 }}\" ng-style=\"{ 'color' : (config.icon_color_forecast == NULL) ? primary-color : config.icon_color_forecast, 'font-size' : (config.icon_size_forecast == NULL) ? '3em' : config.icon_size_forecast + 'em' }\"></i>\n        <h5 class=\"owm-condition owm-to-upper\">{{ condition2 }}</h5>\n        <h4><b>{{ temp2 == NULL ? '' : '%.1f' | sprintf:temp2.split(' ')[0]}} {{temp2.split(' ')[1] }}</b></h4>\n      </div>\n      <div class=\"col-xs-3 col-md-border\">\n        <h4 class=\"owm-to-upper\">{{ date_time3 | date:(config.config.day_format == NULL ? 'EEEE' : config.day_format) }}</h4>\n        <i class=\"wi wi-owm-{{ condition_id3 }}\" ng-style=\"{ 'color' : (config.icon_color_forecast == NULL) ? primary-color : config.icon_color_forecast, 'font-size' : (config.icon_size_forecast == NULL) ? '3em' : config.icon_size_forecast + 'em' }\"></i>\n        <h5 class=\"owm-condition owm-to-upper\">{{ condition3 }}</h5>\n        <h4><b>{{ temp3 == NULL ? '' : '%.1f' | sprintf:temp3.split(' ')[0]}} {{temp3.split(' ')[1] }}</b></h4>\n      </div>\n    </div>\n  </div>\n</div>\n",
+                "name": "OpenWeatherMap",
+                "author": "Bastiaan van Haastrecht",
+                "description": "Local Weather, use with OpenWeatherMap binding - https://github.com/BasvanH/habpanel-widget-openweathermap",
+                "settings": [
+                    {
+                        "type": "choice",
+                        "id": "icon_size_current",
+                        "label": "Icon size - Current",
+                        "default": "12",
+                        "description": "Size of current condition icon",
+                        "choices": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,16,19,20"
+                    },
+                    {
+                        "type": "color",
+                        "id": "icon_color_current",
+                        "label": "Icon color - Current",
+                        "default": "",
+                        "description": "Color of current condition icon"
+                    },
+                    {
+                        "type": "choice",
+                        "default": "3",
+                        "description": "Size of forecast condition icons",
+                        "id": "icon_size_forecast",
+                        "label": "Icon size - Forecast",
+                        "choices": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,16,19,20"
+                    },
+                    {
+                        "type": "color",
+                        "id": "icon_color_forecast",
+                        "label": "Icon color - Forecast",
+                        "description": "Color of forecast condition icons",
+                        "default": ""
+                    },
+                    {
+                        "type": "string",
+                        "id": "day_format",
+                        "label": "Day format",
+                        "default": "EEEE",
+                        "description": "Modify day format of forecast, for options see: https://docs.angularjs.org/api/ng/filter/date"
+                    }
+                ],
+                "source_url": "https://raw.githubusercontent.com/BasvanH/habpanel-widget-openweathermap/master/Local%20Weather%20-%20OpenWeatherMap.widget.json",
+                "readme_url": "https://github.com/BasvanH/habpanel-widget-openweathermap"
+            }
+        }
+    }
+}
