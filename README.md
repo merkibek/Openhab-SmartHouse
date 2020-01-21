@@ -3,6 +3,7 @@ This is Smart House project working on Raspberry Pi and Openhab. It gives you ab
 ![Project image](project.jpg)
 ## Layout
 Layout of house was 3d printed and installed in laser-cutted wood plate. 3d models and dxf files you can find in **stl** directory.
+![Layout image](Screen1.png)
 ## Hardware parts
 This is the list of parts i used in this project:
 ```
