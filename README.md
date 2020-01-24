@@ -8,7 +8,7 @@ Layout of house was 3d printed and installed in laser-cutted wood plate. 3d mode
 This is the list of parts i used in this project:
 ```
 Raspberry Pi 3b+
-Wemos d1 mini
+Wemos D1 mini
 Relay module
 Power contoller
 12V Fan
